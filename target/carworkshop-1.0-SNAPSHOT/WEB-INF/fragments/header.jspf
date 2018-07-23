@@ -1,0 +1,23 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <a class="navbar-brand" href="<c:url value="/" />">CarWorkshop</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="<c:url value="/" />">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<c:url value="/employee/manager" />">Pracownicy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<c:url value="/customer/manager" />">Klienci</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<c:url value="/vehicles/manager" />">Pojazdy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<c:url value="/orders/manager" />">Zlecenia</a>
+            </li>
+        </ul>
+    </nav>
+</header>
